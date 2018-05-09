@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brianb.reminder.ChooseTenantNotify">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_tenant_from_list_to_set_up_notifications"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/fab_pressed"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"/>
+    <ListView
+        android:id="@+id/chooseTenantList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/accent2"
+        android:dividerHeight="5dp"
+        android:clickable="true" />
+
+</LinearLayout>

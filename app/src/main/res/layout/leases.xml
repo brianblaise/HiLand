@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nice_home_small">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage your Tenants"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/pureWhite"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/tenantbuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp">
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_weight="1"
+        android:id="@+id/addTenant"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:onClick="onAddTenant"
+        android:text="@string/add_tenant"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnNotify"
+        android:layout_width="135dp"
+        android:textColor="@color/black"
+        android:layout_height="150dp"
+        android:layout_weight="0"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:onClick="onNotifyTenant"
+        android:text="@string/set_reminders"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/addtxt1"
+            android:text="@string/create_tenant_list_for_custom_reminders"
+            android:layout_width="135dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/pureWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            />
+        <TextView
+            android:id="@+id/myRems"
+            android:text="@string/setup_reminders_and_notifications"
+            android:textStyle="italic"
+            android:textColor="@color/pureWhite"
+            android:layout_width="130dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="150dp"
+            android:text="@string/view_tenants"
+            android:id="@+id/viewTenants"
+            android:textColor="@color/black"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="135dp"
+            android:textColor="@color/black"
+            android:layout_height="150dp"
+            android:text="@string/messages"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:clickable="true"
+            android:id="@+id/msgbutton1"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/lists1"
+            android:text="@string/view_your_tenants"
+            android:layout_width="135dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pureWhite"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            />
+        <TextView
+            android:id="@+id/applics"
+            android:text="@string/chat_with_tenants"
+            android:textStyle="italic"
+            android:layout_width="130dp"
+            android:layout_weight="1"
+            android:textColor="@color/pureWhite"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

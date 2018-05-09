@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notification_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:clipChildren="false"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:transitionName="cardTransition"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <!--<TextView
+    android:id="@+id/txtRowId"
+    android:text="1"
+    android:textSize="18sp"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" /> -->
+        <ImageView
+            android:id="@+id/propertyRowIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/choice_house_two" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_weight="0.09"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/propertyRowAddress"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_weight="0.38"
+                android:paddingTop="7dp"
+                android:text="@string/address"
+                android:textColor="@color/colorAccent"
+                android:textAllCaps="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/propertyRowType"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.47"
+                android:text="Property Type"
+                android:textColor="@color/darkGreen"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/propertyRowUnits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@color/primary"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Units"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/colorPrimaryFair"
+                android:textStyle="italic"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

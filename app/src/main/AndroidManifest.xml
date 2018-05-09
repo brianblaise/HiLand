@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brianb.demo1">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <permission
+        android:name="de.ub0r.android.smsdroid.SAVE_TO_DB"
+        android:description="@string/permission_save_to_db_description"
+        android:label="@string/permission_save_to_db"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- AdMob SDK permissions -->
+    <!--
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    -->
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.example.brianb.demo1.TabActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SigninActivity"
+            android:label="@string/title_activity_signin"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.example.brianb.demo1.SigninActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProjectForm"
+            android:theme="@style/AppNoTheme">
+            <intent-filter>
+                <action android:name="com.example.brianb.demo1.ProjectForm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayProject"
+            android:theme="@style/AppNoTheme">
+            <intent-filter>
+                <action android:name="com.example.brianb.demo1.DisplayProject" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.brianb.reminder.EditNotification"
+            android:theme="@style/AppTheme" >
+        <intent-filter>
+            <action android:name="com.example.brianb.reminder.EditNotification" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".RenterSingleView"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.brianb.reminder.ViewActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RenterHome"
+            android:label="@string/title_activity_renter_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RenterForm"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppNoTheme" />
+        <activity
+            android:name="com.example.brianb.reminder.ReminderHomeActivity"
+            android:theme="@style/StartTheme" />
+        <activity
+            android:name=".ImportTenantContact"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppNoTheme" >
+            <intent-filter>
+            <action android:name="com.example.brianb.demo1.ImportTenantContact" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RenterAdd"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppNoTheme" />
+        <activity
+            android:name=".ChooseFillMethod"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppNoTheme" >
+            <intent-filter>
+                <action android:name="com.example.brianb.demo1.ChooseFillMethod" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ListingsMain"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppNoTheme" />
+        <activity
+            android:name=".ListingCheckView"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppNoTheme" />
+        <activity
+            android:name=".ListingsListview"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppNoTheme" />
+
+
+        <!-- Messaging -->
+        <activity
+            android:name=".ConversationListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android-dir/mms-sms" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".PreferencesActivity" />
+        <activity android:name=".PreferencesAppearanceActivity" />
+        <activity android:name=".PreferencesBehaviorActivity" />
+        <activity android:name=".PreferencesNotificationActivity" />
+        <activity android:name=".Preferences11Activity" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppTheme" />
+
+        <!--Receivers-->
+
+        <receiver android:name="com.example.brianb.reminder.AlarmReceiver" />
+
+        <receiver android:name="com.example.brianb.reminder.SnoozeActionReceiver" />
+
+        <receiver android:name="com.example.brianb.reminder.SnoozeReceiver" />
+
+        <receiver android:name="com.example.brianb.reminder.DismissReceiver" />
+
+        <receiver
+            android:name="com.example.brianb.reminder.BootReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".MessageListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    android:pathPrefix="/threadID/" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="vnd.android-dir/mms-sms"
+                    android:pathPrefix="/conversations/" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SenderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/sender_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </activity>
+
+        <!-- Service that delivers messages from the phone "quick response" -->
+        <service
+            android:name=".HeadlessSmsSendService"
+            android:exported="true"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".SmsReceiver"
+            android:exported="true"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".MmsReceiver"
+            android:exported="true"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVE" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".WebSMSBroadcastReceiver"
+            android:permission="de.ub0r.android.smsdroid.SAVE_TO_DB">
+            <intent-filter>
+                <action android:name="de.ub0r.android.websms.SEND_SUCCESSFUL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NotificationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="de.ub0r.android.smsdroid.MARK_READ" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".WidgetProvider">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_provider" />
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".MessageProvider"
+            android:authorities="de.ub0r.android.smsdroid" />
+        <provider
+            android:name=".SearchProvider"
+            android:authorities="de.ub0r.android.smsdroid.SearchProvider"
+            android:syncable="false" />
+
+        <!--
+            <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".ConversationList" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <activity android:name="com.example.brianb.reminder.ChooseTenantNotify"></activity>
+    </application>
+
+</manifest>

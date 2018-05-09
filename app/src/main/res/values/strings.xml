@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Estate Cradle</string>
+    <string name="signIn_text">Have an Account? SignIn</string>
+    <string name="password_string">password</string>
+    <string name="cpass_string">password</string>
+    <string name="register">REGISTER</string>
+    <string-array name="account_type">
+        <item>Landlord</item>
+        <item>Renter</item>
+        <item>Please Select Account Type</item>
+    </string-array>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to blanks & Concatenating Strings and numbers -->
+    <string name="blank">%d</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Please enter a password</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="username">Username</string>
+    <string name="title_activity_tab">Estate Cradle</string>
+
+    <string name="title_activity_Signin">SigninActivity</string>
+    <string name="title_activity_signin">Sign in</string>
+    <string name="title_activity_renter_home">RenterHome</string>
+
+    <string name="rtxtDate">Text Date</string>
+    <string name="tenant_name">Name</string>
+    <string name="address">ADDRESS</string>
+    <string name="import_from_contacts">Import from Contacts</string>
+    <string name="email_address">E-mail Address</string>
+    <string name="tenant_phone_number">Phone Number</string>
+    <string name="select_lease_date">Select Lease Date</string>
+    <string name="property_type">Property Type</string>
+    <string name="date_of_join">Date of Join</string>
+    <string name="fill_out_an_empty_form">Fill out an Empty Form</string>
+    <string name="how_would_you_like_to_add_tenant">How would you like to add Tenant?</string>
+    <string name="manage_your_projects">Manage your projects</string>
+    <string name="add_a_property">Add a Property</string>
+    <string name="save">SAVE</string>
+
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+    <string name="toast_mark_as_done">Marked next reminder as done</string>
+
+    <string name="no_reminders">Click on the plus button below to begin creating your reminders!</string>
+    <string name="renter_name">Renter Name</string>
+    <string name="existing_date">Existing Date</string>
+    <string name="alarm_date">Alarm Date</string>
+    <string name="listing_name">Listing name</string>
+    <string name="view_listings">View Listings</string>
+    <string name="cancel">cancel</string>
+    <string name="more_details">Details...</string>
+    <string name="add_image">Add Image</string>
+    <string name="title_activity_display_image">DisplayImage</string>
+    <string name="image_information">Image Information</string>
+    <string name="menu_item_image">Add Image</string>
+    <string name="menu_item_uninstall">Remove App</string>
+
+    <!--SMS-->
+
+    <string name="about_" formatted="false">About</string>
+    <string name="about_hint" formatted="false">About this app</string>
+    <string name="faq_hint" formatted="false">Some tips and tricks, how to set up this app.</string>
+    <string name="feedback_" formatted="false">Feedback</string>
+    <string name="feedback_hint" formatted="false">Report bugs, request features ...</string>
+    <string name="google_plus_hint" formatted="false">Follow me on Google+.\nGet update notifications etc.</string>
+    <string name="about0" formatted="false">SMSdroid lets you read your sms and write sms with any other app.</string>
+    <string name="more_apps_" formatted="false">More Apps..</string>
+    <string name="settings" formatted="false">Preferences</string>
+    <string name="new_message_" formatted="false">New message</string>
+    <string name="new_message" formatted="false">1 unread message.</string>
+    <string name="new_messages_" formatted="false">New messages</string>
+    <string name="new_messages" formatted="false">%d unread messages.</string>
+    <string name="call" formatted="false">Call</string>
+    <string name="reply" formatted="false">Reply</string>
+    <string name="send_" formatted="false">Send</string>
+    <string name="notification_" formatted="false">Notifications</string>
+    <string name="notification_enable_" formatted="false">Enable notifications</string>
+    <string name="notification_enable_hint" formatted="false">Enable notifications on receive</string>
+    <string name="receive_vibrate_" formatted="false">Vibrate</string>
+    <string name="receive_vibrate_hint" formatted="false">Vibrate on receive</string>
+    <string name="receive_vibrate_mode_" formatted="false">Vibrator mode</string>
+    <string name="receive_sound_" formatted="false">Sound</string>
+    <string name="receive_sound_hint" formatted="false">Sound on receive</string>
+    <string name="receive_led_color_" formatted="false">LED color</string>
+    <string name="receive_led_flash_" formatted="false">LED mode</string>
+    <string name="receive_led_flash_hint" formatted="false">Set LED flashing behaviour</string>
+    <string name="receive_no_text_" formatted="false">Hide sender/text</string>
+    <string name="receive_no_text_hint" formatted="false">Hide sender/text in notification.</string>
+    <string name="behavior_" formatted="false">Behavior</string>
+    <string name="autosend_" formatted="false">Autosend</string>
+    <string name="appearance_and_behavior_" formatted="false">Appearance &amp; behavior</string>
+    <string name="autosend_hint" formatted="false">Send answers automatically. Currently only WebSMS supports this feature. Other apps will just show the text.</string>
+    <string name="show_text_field_" formatted="false">Show text field</string>
+    <string name="show_text_field_hint" formatted="false">Show text field instead of answer button.</string>
+    <string name="show_target_app_" formatted="false">Show target app</string>
+    <string name="show_target_app_hint" formatted="false">Show target App used for sending on \"send\" Button.</string>
+    <string name="appearance_" formatted="false">Appearance</string>
+    <string name="theme_" formatted="false">Theme</string>
+    <string name="textsize_" formatted="false">Text size</string>
+    <string name="textsize_hint" formatted="false">Text size in pixels; leave empty for default</string>
+    <string name="textcolor_" formatted="false">Text color</string>
+    <string name="textcolor_hint" formatted="false">Message text\'s color.</string>
+    <string name="textcolor_ignore_conv_" formatted="false">Ignore text color for threads</string>
+    <string name="textcolor_ignore_conv_hint" formatted="false">Ignore text color in list of threads.</string>
+    <string name="show_contact_photo_" formatted="false">Show photo</string>
+    <string name="show_contact_photo_hint" formatted="false">Show contact\'s photo in conversation list</string>
+    <string name="show_emoticons_" formatted="false">Show emoticons</string>
+    <string name="show_emoticons_hint" formatted="false">Show emoticons in message list.</string>
+    <string name="hide_send_" formatted="false">Hide "send" button</string>
+    <string name="hide_send_hint" formatted="false">Hide "send" button near text field.</string>
+    <string name="hide_restore_" formatted="false">Hide "restore last message" button</string>
+    <string name="hide_restore_hint" formatted="false">Hide "restore last message" button in message list.</string>
+    <string name="hide_paste_" formatted="false">Hide "paste" button</string>
+    <string name="hide_paste_hint" formatted="false">Hide "paste" button on text field.</string>
+    <string name="hide_widget_label_" formatted="false">Hide widget\'s label</string>
+    <string name="hide_widget_label_hint" formatted="false">Hide the label of the widget.</string>
+    <string name="hide_delete_all_threads_" formatted="false">Hide delete all threads</string>
+    <string name="hide_delete_all_threads_hint" formatted="false">Hide delete all threads menu option.</string>
+    <string name="hide_message_count_" formatted="false">Hide message counts</string>
+    <string name="hide_message_count_hint" formatted="false">Hide message counts on conversation list.</string>
+    <string name="show_full_date_" formatted="false">Show full date</string>
+    <string name="show_full_date_hint" formatted="false">Show full date and time on every message.</string>
+    <string name="me" formatted="false">Me</string>
+    <string name="view_contact_" formatted="false">View contact</string>
+    <string name="add_contact_" formatted="false">Add to contacts</string>
+    <string name="view_thread_" formatted="false">View thread</string>
+    <string name="filter_spam_" formatted="false">Mark as Spam</string>
+    <string name="dont_filter_spam_" formatted="false">Remove from Blacklist</string>
+    <string name="delete_message_" formatted="false">Delete message</string>
+    <string name="delete_thread_" formatted="false">Delete thread</string>
+    <string name="forward_" formatted="false">Forward</string>
+    <string name="send_draft_" formatted="false">Send draft</string>
+    <string name="copy_text_" formatted="false">Copy message text</string>
+    <string name="view_details_" formatted="false">View message details</string>
+    <string name="delete_threads_" formatted="false">Delete all threads</string>
+    <string name="mark_all_read_" formatted="false">Mark all as read</string>
+    <string name="mark_read_" formatted="false">Mark read</string>
+    <string name="mark_unread_" formatted="false">Mark unread</string>
+    <string name="message_options_" formatted="false">Message options</string>
+    <string name="delete_message_question" formatted="false">Do you really want to delete this message?</string>
+    <string name="delete_thread_question" formatted="false">Do you really want to delete <b>all messages of this thread</b>?</string>
+    <string name="delete_threads_question" formatted="false">Do you really want to delete <b>all messages</b>?</string>
+    <string name="from_" formatted="false">From:</string>
+    <string name="to_" formatted="false">To:</string>
+    <string name="to_hint" formatted="false">Name or Number</string>
+    <string name="type_" formatted="false">Type:</string>
+    <string name="sent_" formatted="false">Sent:</string>
+    <string name="received_" formatted="false">Received:</string>
+    <string name="view_mms" formatted="false">View MMS</string>
+    <string name="mms_conversation" formatted="false">&lt;MMS body&gt;</string>
+    <string name="import_contact_" formatted="false">Import contact</string>
+    <string name="download_" formatted="false">Download</string>
+    <string name="downloading_" formatted="false">Downloading..</string>
+    <string name="error_conv_null" formatted="false">Error getting conversation from DB!</string>
+    <string name="error_sending_failed" formatted="false">Sending failed</string>
+    <string name="text_hint" formatted="false">Text</string>
+    <string name="paste_" formatted="false">[Paste from clipboard]</string>
+    <string name="restore_" formatted="false">Restore last message</string>
+    <string name="attachment_saved" formatted="false">Saved attachment on SD card as:</string>
+    <string name="attachment_not_saved" formatted="false">Could not save attachment.</string>
+    <string name="chooser_" formatted="false">Chooser</string>
+    <string name="notification_icon_" formatted="false">Notification icon</string>
+    <string name="notification_default_" formatted="false">Default</string>
+    <string name="notification_gingerbread_" formatted="false">Gingerbread</string>
+    <string name="notification_gingerbread_mail_" formatted="false">Gingerbread mail</string>
+    <string name="notification_black_" formatted="false">Black</string>
+    <string name="notification_green_" formatted="false">Green</string>
+    <string name="notification_yellow_" formatted="false">Yellow</string>
+    <string name="bubbles_in_" formatted="false">Bubbles in</string>
+    <string name="bubbles_in_hint" formatted="false">Bubbles for incoming messages</string>
+    <string name="bubbles_out_" formatted="false">Bubbles out</string>
+    <string name="bubbles_out_hint" formatted="false">Bubbles for outgoing messages</string>
+    <string name="bubbles_nothing" formatted="false">Nothing</string>
+    <string name="bubbles_plain_dark_gray" formatted="false">Plain dark gray</string>
+    <string name="bubbles_plain_light_gray" formatted="false">Plain light gray</string>
+    <string name="bubbles_old_turquoise_left" formatted="false">Old turquoise left</string>
+    <string name="bubbles_old_turquoise_right" formatted="false">Old turquoise right</string>
+    <string name="bubbles_old_green_left" formatted="false">Old green left</string>
+    <string name="bubbles_old_green_right" formatted="false">Old green right</string>
+    <string name="bubbles_blue_left" formatted="false">Blue left</string>
+    <string name="bubbles_blue_right" formatted="false">Blue right</string>
+    <string name="bubbles_blue2_left" formatted="false">Blue 2 left</string>
+    <string name="bubbles_blue2_right" formatted="false">Blue 2 right</string>
+    <string name="bubbles_brown_left" formatted="false">Brown left</string>
+    <string name="bubbles_brown_right" formatted="false">Brown right</string>
+    <string name="bubbles_gray_left" formatted="false">Gray left</string>
+    <string name="bubbles_gray_right" formatted="false">Gray right</string>
+    <string name="bubbles_green_left" formatted="false">Green left</string>
+    <string name="bubbles_green_right" formatted="false">Green right</string>
+    <string name="bubbles_green2_left" formatted="false">Green 2 left</string>
+    <string name="bubbles_green2_right" formatted="false">Green 2 right</string>
+    <string name="bubbles_orange_left" formatted="false">Orange left</string>
+    <string name="bubbles_orange_right" formatted="false">Orange right</string>
+    <string name="bubbles_pink_left" formatted="false">Pink left</string>
+    <string name="bubbles_pink_right" formatted="false">Pink right</string>
+    <string name="bubbles_purple_left" formatted="false">Purple left</string>
+    <string name="bubbles_purple_right" formatted="false">Purple right</string>
+    <string name="bubbles_white_left" formatted="false">White left</string>
+    <string name="bubbles_white_right" formatted="false">White right</string>
+    <string name="bubbles_yellow_left" formatted="false">Yellow left</string>
+    <string name="bubbles_yellow_right" formatted="false">Yellow right</string>
+    <string name="decode_decimal_ncr_" formatted="false">Decode Decimal NCR</string>
+    <string name="decode_decimal_ncr_hint" formatted="false">Some providers deliver unicode messages encoded as decimal NCR (&amp;#0000;). Check to auto decode such entities.</string>
+    <string name="activate_sender_" formatted="false">Activate sender</string>
+    <string name="activate_sender_hint" formatted="false">Activate SMSdroid\'s message sender.</string>
+    <string name="fix_numbers_" formatted="false">Fix numbers</string>
+    <string name="fix_numbers_hint" formatted="false">Replace parts of a number with a regular expression before sending. Most users don\'t need to change this.</string>
+    <string name="fix_number1_regex_" formatted="false">Regex 1</string>
+    <string name="fix_number1_replace_" formatted="false">Replace 1</string>
+    <string name="fix_number2_regex_" formatted="false">Regex 2</string>
+    <string name="fix_number2_replace_" formatted="false">Replace 2</string>
+    <string name="fix_number3_regex_" formatted="false">Regex 3</string>
+    <string name="fix_number3_replace_" formatted="false">Replace 3</string>
+    <string name="fix_numbers_regex_hint" formatted="false">Regular expression to search for.</string>
+    <string name="fix_numbers_replace_hint" formatted="false">Replace matched text with this text.</string>
+    <string name="use_new_layout_" formatted="false">Use tiled layout</string>
+    <string name="use_new_layout_hint" formatted="false">Use a tiled user interface for conversations</string>
+    <string name="error_start_mms_download" formatted="false">Error starting MMS download</string>
+    <string-array name="themes">
+        <item>Black</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="led_color">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+    </string-array>
+    <string-array name="led_flash">
+        <item>Flashing</item>
+        <item>Consistently</item>
+    </string-array>
+    <string-array name="vibrate_mode">
+        <item>Long</item>
+        <item>Multiple short</item>
+        <item>Multiple long</item>
+        <item>Short, long, short, long</item>
+    </string-array>
+    <string name="reset" formatted="false">Reset</string>
+    <string name="license_" formatted="false">License:</string>
+    <string name="license" formatted="false">GPLv3 - see http://www.gnu.org/licenses/gpl-3.0.txt</string>
+    <string name="author_" formatted="false">Author:</string>
+    <string name="website_" formatted="false">Website:</string>
+    <string name="mobile_only_" formatted="false">Only mobile numbers</string>
+    <string name="mobile_only_hint" formatted="false">Only suggest mobile numbers for recipient</string>
+    <string name="edit_short_text_" formatted="false">Edit as short message</string>
+    <string name="edit_short_text_hint" formatted="false">Consider input a short message. The keyboard usually replaces enter with smiley button if enabled.</string>
+    <string name="permission_save_to_db" formatted="false">Save messages to database</string>
+    <string name="permission_save_to_db_description" formatted="false">Save messages sent by other apps to android message database</string>
+    <string name="not_default_app" formatted="false">CradleSms is not the default SMS app</string>
+    <string name="not_default_app_message" formatted="false">CradleSms needs to be the default SMS app to work properly</string>
+    <string name="forwarded_sms_clean_" formatted="false">Modify received sms</string>
+    <string name="forwarded_sms_clean_hint" formatted="false">Strips sender in received sms according to "([0-9a-zA-Z]+):" and use that this number as sender.</string>
+    <string name="error_unknown" formatted="false">Unknown error</string>
+    <string name="donate_remove_ads_" formatted="false">Donate/remove ads</string>
+    <string name="permissions_" formatted="false">Permissions</string>
+    <string name="permissions_read_phone_state" formatted="false">Read phone state: this permission is necessary to fetch your phone number from the device. The phone number is used as sender for outgoing messages.\nThe app still works when this permission is denied.</string>
+    <string name="permissions_read_contacts" formatted="false">Read contacts: this permission is necessary to resolve phone numbers to contacts and auto complete names and numbers in the recipient input field.\nThe app does not work without this permission.</string>
+    <string name="permissions_read_sms" formatted="false">Read SMS: this permission is necessary to read SMS from phone\'s database.\nThe app does not work without this permission.</string>
+    <string name="permissions_write_sms" formatted="false">Write SMS: this permission is necessary to mark SMS as read or to delete messages.\nThe app still works to some extend when this permission is denied.</string>
+    <string name="permissions_send_sms" formatted="false">Send SMS: this permission is necessary to send SMS.\nThe app still works when this permission is denied. You will need to use a different app for sending though.</string>
+    <string name="permissions_write_external_storage" formatted="false">Write external storage: this permission is necessary to save mms media to external storage.\nThe app still works when this permission is denied.</string>
+    <string name="about">About</string>
+    <string name="sms">SMS</string>
+    <string name="list_properties_for_suitable_applicants">List Properties for Suitable Applicants</string>
+    <string name="send_messages_to_tenants">Send Messages to Tenants</string>
+    <string name="at_a_glance_view_of_your_properties">At-a-Glance View of your Properties</string>
+    <string name="create_property_list_land_and_or_houses">Create Property List, Land and or Houses</string>
+    <string name="view_properties">View Properties</string>
+    <string name="messages">Messages</string>
+    <string name="add_tenant">Add Tenant</string>
+    <string name="setup_reminders_and_notifications">Setup Reminders and Notifications</string>
+    <string name="create_tenant_list_for_custom_reminders">Create Tenant List, for Custom Reminders</string>
+    <string name="view_your_tenants">View your Tenant list</string>
+    <string name="chat_with_tenants">Chat with Tenants</string>
+    <string name="view_tenants">View Tenants</string>
+    <string name="set_reminders">Set Reminders</string>
+    <string name="number_of_units">Number of Units</string>
+    <string name="address_small">Address</string>
+    <string name="new_here_register">New Here? Register</string>
+    <string name="forgot_password">Forgot Password</string>
+    <!--    <string name="next_payment_date">Next Payment Date</string>-->
+
+    <!--new notification-->
+
+    <string-array name="repeat_array">
+        <item>One time Lease</item>
+        <item>Every hour</item>
+        <item>Every day</item>
+        <item>Every week</item>
+        <item>Every month</item>
+        <item>Every year</item>
+
+    </string-array>
+    <string name="times_shown_edit">Shown %1$d out of</string>
+
+    <string name="notification_title">Notification Title</string>
+    <string name="no_repeat">No Repeat</string>
+    <string name="next_payment_date">NEXT PAYMENT DATE:</string>
+    <string name="always">Always</string>
+    <string name="repeat_notification">Number of times to repeat: </string>
+    <string name="one" translatable="false">1</string>
+    <string name="times">times</string>
+    <string name="time_now">NOW</string>
+    <string name="date_today">Today</string>
+    <string name="toast_past_date">Please select the next payment date</string>
+    <string name="toast_title_empty">Title cannot be empty</string>
+    <string name="toast_higher_number">Repeat number must be one or greater</string>
+    <string name="house_number">House Number </string>
+    <string name="view_address">Address</string>
+    <string name="view_phone_number">Phone Number:</string>
+    <string name="address_one">Address One</string>
+    <string name="person_example_com">person@example.com</string>
+    <string name="tenant_icon">tenant_icon</string>
+    <string name="joined_on">Joined On</string>
+    <string name="house_no">House No.</string>
+    <string name="search_tenant">Search Tenant</string>
+    <string name="choose_tenant_from_list_to_set_up_notifications">Choose Tenant from List to set-up Notifications.</string>
+    <string name="no_active_tenant_notifications">No active Tenant notifications</string>
+    <string name="ok">OK</string>
+    <string name="snooze_length">Snooze Duration</string>
+    <string name="mark_as_done">Done</string>
+    <string name="mark_done">Mark as done</string>
+    <string name="snooze">Snooze</string>
+    <string name="times_shown">Shown %1$d out of %2$d times</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_confirmation">Are you sure to delete this notification?</string>
+    <string name="action_share">Share</string>
+    <string name="action_mark_as_done">Mark as done</string>
+    <string name="action_show_now">Show now</string>
+    <string name="preference_notification_category">Notification Settings</string>
+    <string name="checkbox_vibrate">Vibrate</string>
+    <string name="checkbox_sound">Sound</string>
+    <string name="checkbox_LED">LED</string>
+    <string name="checkbox_ongoing">Persistent</string>
+    <string name="ongoing_detail">Prevent swiping away notification</string>
+    <string name="mark_as_done_detail">Add a \"Done\" action to the notification</string>
+    <string name="snooze_detail">Add a \"Snooze\" action to the notification</string>
+    <string name="nagging_detail">Continuously notify you of the current notification until it is dismissed</string>
+    <string name="nagging_reminder">Nagging reminder</string>
+    <string name="action_about">About</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="repeats_every">Repeats every: %1$d %2$s</string>
+    <string name="no_inactive">No inactive notifications</string>
+    <string name="one_time_lease">One time Lease</string>
+    <string name="lease_amount">Lease Amount in UGX</string>
+    <string name="joinEdit">Wednesday, August 2, 2017</string>
+</resources>

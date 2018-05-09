@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.brianb.demo1.ListingsMain">
+
+    <item
+        android:title="@string/menu_item_image"
+        android:id="@+id/add_image"
+        android:icon="@drawable/cameraicon"
+        app:showAsAction="always"
+        />
+    <!--<item
+        android:title="@string/menu_item_uninstall"
+        android:id="@+id/remove_app"
+        android:icon="@drawable/trash"
+        app:showAsAction="always"
+        /> -->
+</menu>

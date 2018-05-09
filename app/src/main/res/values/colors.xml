@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fab4">#546e7a</color>
+    <color name="fab_prime">#2b7da3</color>
+    <color name="fab_prime2">#0a4c6b</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#37474f</color>
+    <color name="primary">#37474f</color>
+    <color name="primary_dark">#263238</color>
+    <color name="accent">#78909c</color>
+    <color name="accent2">#eaeaea</color>
+    <color name="control_normal">#888888</color>
+    <color name="fab_pressed">#546e7a</color>
+    <color name="NotificationTitle">#ffffff</color>
+    <color name="fab_pressed2">#b6ded3</color>
+    <color name="fab_pressed3">#daf2ed</color>
+    <color name="colorPrimary">#560327</color>
+    <color name="colorPrimaryFaint">#b9135b</color>
+    <color name="colorPrimaryFair">#780638</color>
+    <color name="toolbar_title">#b70955</color>
+    <color name="goodRed">#dc8b0a44</color>
+
+    <color name="background">#eeeeee</color>
+
+
+    <color name="accentLight">#ff988db6</color>
+    <color name="lightGray">#e6e6e6</color>
+    <color name="textLightGray">#8f8f8f</color>
+    <color name="textGreyHeader">#ff818181</color>
+    <color name="notificationContentText">#737373</color>
+    <color name="error">#da1b21</color>
+    <color name="iconTint">#8e8e8e</color>
+    <color name="default_colour_grey">#8e8e8e</color>
+    <color name="emptyColour">#bababa</color>
+
+    <color name ="pureWhite">#ffffffff</color>
+    <color name="deepPurple1">#311B92</color>
+    <color name="deepPurple2">#512DA8</color>
+    <color name="deepPurple3">#673AB7</color>
+    <color name="deepPurple4">#9575CD</color>
+    <color name="deepPurple5">#D1C4E9</color>
+    <color name="black">#000</color>
+    <color name="pureBlack">#000000</color>
+    <color name="white">#fff</color>
+    <color name="offWhite">#f1f0f0</color>
+
+    <color name="deepGreen">#2f8f03</color>
+    <color name="faintGreen">#dc166908</color>
+    <color name="darkGreen">#1d4e06</color>
+    <color name="lightGreen">#41c106</color>
+</resources>

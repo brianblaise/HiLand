@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brianb.demo1.ProjectForm"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/propertyImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/appartments_two"
+            android:layout_margin="@dimen/activity_horizontal_margin" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_alignBottom="@+id/propertyImage"
+            android:layout_alignRight="@+id/propertyImage"
+            android:layout_alignEnd="@+id/propertyImage" />
+    </RelativeLayout>
+    <!--<EditText
+        android:id = "@+id/edtId"
+        android:hint="Enter Id"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        /> -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f0ffffff"
+        >
+        <Spinner
+            android:id="@+id/spinnerProperty"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dialog" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/edtAddress"
+        android:hint="@string/address_small"
+        android:inputType="textAutoComplete"
+        android:maxLines="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtUnitno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/number_of_units"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#9c5fca4a"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#9c5fca4a"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/propertyList"
+        android:choiceMode="singleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

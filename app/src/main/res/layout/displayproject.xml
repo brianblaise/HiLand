@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brianb.demo1.DisplayProject"
+    >
+    <TextView
+        android:id="@+id/title1"
+        android:text="MY PROPERTIES"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginTop="4dp"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <EditText
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchable"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="left"
+            android:hint="Search properties"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="0"
+            android:layout_gravity="right"
+            android:id="@+id/plusProperty"
+            android:background="@drawable/add"
+            android:clickable="true"
+            android:onClick="onAddProperty"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/propertyList1"
+        android:choiceMode="singleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:divider="#d6ceda"
+        android:dividerHeight="3dp"
+        />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="2dp"
+    android:background="#f5f3f2">
+        <ImageView
+            android:id="@+id/chooseRowIcon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/tenant_icon"
+            android:src="@drawable/user_add" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chooseRowName"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Justin Timberlake"
+                android:textColor="@color/colorAccent"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chooseRowAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/address"
+                android:gravity="start|center"
+                android:textColor="@color/darkGreen"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal"
+            android:gravity="bottom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/house_no"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:gravity="start|center"
+                    android:textStyle="italic"/>
+                <TextView
+                    android:id="@+id/chooseRowHseNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="1"
+                    android:textStyle="italic|bold"
+                    android:gravity="start|center"
+                    android:textSize="18sp"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
